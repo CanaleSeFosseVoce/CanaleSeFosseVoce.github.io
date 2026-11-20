@@ -13,6 +13,9 @@
   p.sub { color:var(--suave); margin-top:0; }
   a { color:var(--link); }
   hr { border:0; border-top:1px solid #8884; margin:32px 0; }
+  .yt { display:flex; gap:14px; align-items:flex-start; border:1px solid #8885; border-radius:10px; padding:14px 16px; margin:24px 0; }
+  .yt svg { flex:none; margin-top:3px; }
+  p.links { font-size:1.05rem; font-weight:600; }
 </style>
 </head>
 <body>
@@ -25,7 +28,16 @@
   usando a YouTube Data API v3 oficial.</p>
   <p>Não é um serviço aberto ao público: não há cadastro, não há login de terceiros e nenhum dado de visitantes é coletado.</p>
 
-  <p><a href="privacidade.html">Política de Privacidade</a> ·
+  <div class="yt">
+    <svg width="44" height="31" viewBox="0 0 44 31" aria-hidden="true"><rect width="44" height="31" rx="8" fill="#FF0000"/><path d="M18 9 L30 15.5 L18 22 Z" fill="#fff"/></svg>
+    <div><strong>Desenvolvido com os Serviços de API do YouTube</strong><br>
+    Este app usa a YouTube Data API. Ao usá-lo, você concorda com os
+    <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a> e com a
+    <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</div>
+  </div>
+
+  <p class="links"><a href="privacidade.html">Política de Privacidade</a> ·
+     <a href="termos.html">Termos de Utilização</a> ·
      <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a></p>
 
   <hr>
